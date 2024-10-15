@@ -90,7 +90,7 @@ public class Cgpa
         Student stud[]= new Student[2];
         for(int i=0;i<2;i++)
         {
-            stud[i]=new Student();
+            stud[i]=new Student(); //Create object of class Student after each loop
             System.out.println("Enter student "+(i+1) +" semester details");
             stud[i].accept();
         }
